@@ -1,0 +1,24 @@
+Algoritmo MatrizRetangular
+
+     Var mat: vetor[1..2, 1..3] de inteiro
+           i: inteiro
+           j: inteiro
+Inicio
+     i ← 1
+	 Enquanto i <= 2 faça
+		   j ← 1
+           Enquanto j <= 3 faça
+                mat[i,j] ← 1
+                j ← j + 1
+           Fim_enquanto
+		   i ← i + 1
+     Fim_enquanto
+Fim_algoritmo
+
+_______________________________________________
+
+1 - Acrescentado a palavra reservada Inicio.
+2 - Inicialização das variáveis contadoras a partir de 1.
+3 - Alterado o local de inicialização da variável contadora j, para dentro do loop.
+4 - Acrescentado um incremento da variável "i" na linha 14.
+5 - Definido que o primeiro loop trata das linhas, e o segundo das colunas.
